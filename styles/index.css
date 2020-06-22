@@ -1,0 +1,176 @@
+.box{
+    width: 580px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+  }
+  #box1{
+    display:block; margin: 0px auto;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 1px;
+    border-color:rgb(230, 225, 225);
+    border-style: solid;
+    position: relative;
+    z-index: 1; /* z-index가 높은값이 덮어쓴다*/
+  }
+  div {
+    text-align: center;
+  }
+
+  .imgsize {
+    width: auto;
+    height: auto;
+    max-width: 280px;
+    max-height: 100ps;
+  }
+  .input2{
+    font-size: 15px;
+    width: 320px;
+    padding: 0px;
+    border: 0px;
+    outline: none;
+    float: center;
+    position: absolute;
+    top:294px; right:688px;
+    z-index:1;
+  }
+  a{
+    color:rgb(19, 18, 18);
+    text-decoration: none;
+  }
+
+  .span2{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 450;
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: rgb(240, 240, 240);
+    border: 0px;
+  }
+  .span3{
+    position: absolute;
+    right: 210px;
+    top: 20px;
+    font-size:13px;
+    font-weight: 450;
+  }
+  .span4{
+    position: absolute;
+    right: 155px;
+    top: 20px;
+    font-size:13px;
+    font-weight: 450;
+
+  }
+  .span5{
+    position: absolute;
+    right:112px;
+    top:18px;
+    width: 25px;
+    height: 25px;
+  }
+  .span6{
+    position: absolute;
+    left:1440px;
+    right:100px;
+    top:15px;
+    width: 65px;
+    height: 30px;
+    background-color: rgb(64, 121, 243);
+    border: 1px;
+
+  }
+  .footer1{
+    position: absolute;
+    width: 1498px;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);;
+    bottom: 40px;
+    font-size:15px;
+    font-weight: 300;
+  
+    border-bottom-color: slategrey;
+  }
+  .footer2{
+    position: absolute;
+    width: 1498px;
+    height:15px;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);
+    bottom: 0px;
+  }
+  .t1{
+    position: absolute;
+    bottom: 13px;
+    font-size:13px;
+    font-weight: 300;
+    left:34px;
+  }
+  .t2{
+    position: absolute;
+    bottom: 13px;
+    font-size:13px;
+    font-weight: 300;
+    left:87px;
+  }
+  .t3{
+    position: absolute;
+    bottom: 13px;
+    font-size:13px;
+    font-weight: 400;
+    left:160px;
+  }
+  .t4{
+    position: absolute;
+    bottom: 13px;
+    font-size:13px;
+    font-weight: 400;
+    left:258px;
+  }
+  .t5{
+    position: absolute;
+    bottom: 13px;
+    font-size:13px;
+    font-weight: 400;
+    right:31px;
+    cursor: pointer;
+  }
+  .t6{
+    position: absolute;
+    bottom: 13px;
+    font-size:13px;
+    font-weight: 400;
+    right:84px;
+  }
+  .t7{
+    position: absolute;
+    bottom: 13px;
+    font-size:13px;
+    font-weight: 400;
+    right:136px;
+  }
+  .searchImg1{
+    position: absolute;
+    right:1025px;
+    top:290px;
+    width: 25px;
+    height: 25px;
+    z-index:2;
+  }
+  .searchImg2{
+    position: absolute;
+    right:495px;
+    top:290px;
+    width: 25px;
+    height: 25px;
+    z-index:2;
+  }
+  .searchImg3{
+    position: absolute;
+    right:530px;
+    top:292px;
+    width: 33px;
+    height: 22px;
+    z-index:2;
+  }
