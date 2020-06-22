@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang='ko'>
+<head>
+  <title>Google</title>
+  <meta charset="utf-8">
+  <style>
+    .box{
+      width: 580px;
+      height: 45px;
+      background-color: rgb(255, 255, 255);
+      border-width: 2px;
+    }
+    #box1{
+      display:block; margin: 0px auto;
+      border-radius: 30px 30px 30px 30px;
+      border-width: 1px;
+      border-color:rgb(230, 225, 225);
+      border-style: solid;
+      position: relative;
+      z-index: 1; /* z-index가 높은값이 덮어쓴다*/
+    }
+    div {
+      text-align: center;
+    }
+
+    .imgsize {
+      width: auto;
+      height: auto;
+      max-width: 280px;
+      max-height: 100ps;
+    }
+    .input2{
+      font-size: 15px;
+      width: 320px;
+      padding: 0px;
+      border: 0px;
+      outline: none;
+      float: center;
+      position: absolute;
+      top:294px; right:688px;
+      z-index:1;
+    }
+    a{
+      color:rgb(19, 18, 18);
+      text-decoration: none;
+    }
+
+    .span2{
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 450;
+      margin: 5px;
+      padding: 8px 15px;
+      background-color: rgb(240, 240, 240);
+      border: 0px;
+    }
+    .span3{
+      position: absolute;
+      right: 210px;
+      top: 20px;
+      font-size:13px;
+      font-weight: 450;
+    }
+    .span4{
+      position: absolute;
+      right: 155px;
+      top: 20px;
+      font-size:13px;
+      font-weight: 450;
+
+    }
+    .span5{
+      position: absolute;
+      right:112px;
+      top:18px;
+      width: 25px;
+      height: 25px;
+    }
+    .span6{
+      position: absolute;
+      left:1440px;
+      right:100px;
+      top:15px;
+      width: 65px;
+      height: 30px;
+      background-color: rgb(64, 121, 243);
+      border: 1px;
+  
+    }
+    .footer1{
+      position: absolute;
+      width: 1498px;
+      padding: 12px;
+      background-color: rgb(240, 240, 240);;
+      bottom: 40px;
+      font-size:15px;
+      font-weight: 300;
+    
+      border-bottom-color: slategrey;
+    }
+    .footer2{
+      position: absolute;
+      width: 1498px;
+      height:15px;
+      padding: 12px;
+      background-color: rgb(240, 240, 240);
+      bottom: 0px;
+    }
+    .t1{
+      position: absolute;
+      bottom: 13px;
+      font-size:13px;
+      font-weight: 300;
+      left:34px;
+    }
+    .t2{
+      position: absolute;
+      bottom: 13px;
+      font-size:13px;
+      font-weight: 300;
+      left:87px;
+    }
+    .t3{
+      position: absolute;
+      bottom: 13px;
+      font-size:13px;
+      font-weight: 400;
+      left:160px;
+    }
+    .t4{
+      position: absolute;
+      bottom: 13px;
+      font-size:13px;
+      font-weight: 400;
+      left:258px;
+    }
+    .t5{
+      position: absolute;
+      bottom: 13px;
+      font-size:13px;
+      font-weight: 400;
+      right:31px;
+      cursor: pointer;
+    }
+    .t6{
+      position: absolute;
+      bottom: 13px;
+      font-size:13px;
+      font-weight: 400;
+      right:84px;
+    }
+    .t7{
+      position: absolute;
+      bottom: 13px;
+      font-size:13px;
+      font-weight: 400;
+      right:136px;
+    }
+    .searchImg1{
+      position: absolute;
+      right:1025px;
+      top:290px;
+      width: 25px;
+      height: 25px;
+      z-index:2;
+    }
+    .searchImg2{
+      position: absolute;
+      right:495px;
+      top:290px;
+      width: 25px;
+      height: 25px;
+      z-index:2;
+    }
+    .searchImg3{
+      position: absolute;
+      right:530px;
+      top:292px;
+      width: 33px;
+      height: 22px;
+      z-index:2;
+    }
+
+  </style>
+</head>
+<body>
+  <span class="span3"><a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+    Gmail</a></span>
+  <span class="span4" ><a href="https://www.google.co.kr/imghp?hl=ko&tab=wi&ogbl">
+    이미지</a></span>
+  <img class="span5" src="./gapp.jpg", alt="???">
+  <input class="span6" style="color:white" type="button" value="로그인">
+  <img class="searchImg1" src=".\gsearch.jpg", alt="???">
+  <a href="https://www.google.com/?pli=1"><img class="searchImg2" src="./gmike.jpg", alt="???"></a>
+  <a><img class="searchImg3" src="./gdg.jpg", alt="???"></a>
+
+  <div>
+    <br><br><br><br><br><br><br>
+    <img class="imgsize" src ="C:\Users\PJM\Desktop\web\gimg.jpg". alt="??">
+    <br><br>
+    <div id="box1" class="box"></div>
+    <input class="input2" type="text" placeholder=''>
+    <br>
+    <span class="span2"><a href="https:www.google.com">Google 검색</a></span>
+    <span class="span2"><a href="https://www.google.com/doodles/" target=_blank">I'm Feeling Lucky</a></span><br>
+
+  </div>
+
+  <span class="footer1" style="color:rgb(95, 95, 95)">&nbsp&nbsp&nbsp대한민국</span>
+  <span class="footer2"></span>
+  <span class="t1" style="color:rgb(95, 95, 95)" ><a href="https://ads.google.com/intl/ko_kr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
+    광고</a></span>
+  <span class="t2" style="color:rgb(95, 95, 95)"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none
+    ">비즈니스</a></span>
+  <span class="t3" style="color:rgb(95, 95, 95)"><a href="https://about.google/?utm_source=google-KR&utm_medium=referral&utm_campaign=hp-footer&fg=1Google
+    ">Google 정보</a></span>
+  <span class="t4" style="color:rgb(95, 95, 95)"><a href="https://www.google.com/search/howsearchworks/?fg=1
+    ">검색의 원리</a></span>
+  <span class="t5"  style="color:rgb(95, 95, 95)">설정</span>
+  <span class="t6" style="color:rgb(95, 95, 95)"><a href="https://policies.google.com/terms?fg=1
+    ">약관</a></span>
+  <span class="t7" style="color:rgb(95, 95, 95)"><a href="https://policies.google.com/privacy?fg=1
+    ">개인정보처리방침</a></span>
+  
+</body>
+</html>
