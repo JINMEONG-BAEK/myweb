@@ -1,0 +1,1 @@
+//document.querySelector("header .head").textContent= `　　　　　　　　　　　　　　　NAVER　SPO　　　　RTS`;
