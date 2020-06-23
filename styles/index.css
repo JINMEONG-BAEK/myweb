@@ -5,51 +5,110 @@ body{
 }
 header{
   display: inline-block;
-  width: 1000px;
+  width: 100%;
   height: 130px;
-  text-align: left;
-  background-color: blue;
-  font-size: 20px;
-  color: white;
-}
-
-#section1{
-  display: inline-block;
-  width:700px;
-  height: 330px;
-  text-align: left;
-  background-color: yellow;
-  font-size: 20px;
-}
-aside{
-  display: inline-block;
-  width:300px;
-  height: 330px;
   text-align: left;
   background-color: skyblue;
   font-size: 20px;
+  color: white;
 }
-#section2{
+header .head{
   display: inline-block;
-  width:1000px;
-  height: 210px;
+  width: 100%;
+  height: 37%;
+  text-align: left;
+  background-color: rgb(37, 90, 235);
+  font-size: 20px;
+  color: white;
+  
+}
+nav{
+  display: inline-block;
+  width: 20%;
+  height: 700px;
+  text-align: left;
+  background-color: blanchedalmond;
+  font-size: 20px;
+  color: white;
+  float:left;
+
+}
+section{
+  display: inline-block;
+  width: 60%;
+  height: 700px;
   text-align: left;
   background-color: salmon;
-  font-size: 20px;
+  font-size:0px;
+  color: white;
+  margin-left:-20%;
 }
-#section3{
+article{
   display: inline-block;
-  width:1000px;
-  height: 65px;
-  text-align: left;
-  background-color: slategray;
-  font-size: 20px;
+  width: 100%;
+  height: 55%;
+  text-align: center;
+  background-color: yellow;
+  font-size: 0px;
+  color: white;
+
+
 }
-#section4{
+article .videos{
   display: inline-block;
-  width:1000px;
-  height: 210px;
+  width: 70%;
+  height: 100%;
   text-align: left;
-  background-color: sandybrown;
+  background-color: whitesmoke;
   font-size: 20px;
+  color: black;
+ 
+}
+article .news{
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  text-align: left;
+  background-color: khaki;
+  font-size: 20px;
+  color: black;
+}
+footer{
+  display: inline-block;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  background-color:green;
+  font-size: 20px;
+  color: white;
+  
+}
+footer .menu{
+  display: block;
+  height: 20%;
+  text-align: center;
+  background-color: red;
+}
+footer .videos{
+  display: block;
+  height: 70%;
+  text-align: center;
+  background-color: skyblue;
+}
+footer .more5vods{
+  display: block;
+  height: 20%;
+  text-align: center;
+  background-color: springgreen;
+}
+
+aside{
+  display: inline-block;
+  width: 20%;
+  height: 700px;
+  text-align: left;
+  background-color: blanchedalmond;
+  color: black;
+  margin-left:-20%;
+  float:right;
 }
